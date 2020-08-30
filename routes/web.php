@@ -21,3 +21,8 @@ Auth::routes();
 
 Route::get('/user', 'UserController@index')->name('user');
 Route::get('/admin', 'AdminController@index')->name('admin');
+
+
+Route::get('/users', function () {
+    return view('admin.users');
+});
