@@ -40,51 +40,52 @@
   <div class="wrapper ">
     <div class="sidebar" data-color="orange"><!--Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"-->
       <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-          CT
+        <a href="#" class="simple-text logo-mini">
+          #
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+        <a href="#" class="simple-text logo-normal">
+          Century 100 Link
         </a>
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
-          <li class="{{ 'admin' == request()->path() ? 'active' : '' }}">
+          <li class="{{ (request()->is('admin')) ? 'active' : '' }}">
             <a href="/admin">
               <i class="now-ui-icons design_app"></i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="{{ 'packages' == request()->path() ? 'active' : '' }}">
-            <a href="/packages">
-              <i class="now-ui-icons education_atom"></i>
-              <p>Packages</p>
-            </a>
-          </>
-          <li class="{{ 'subs' == request()->path() ? 'active' : '' }}">
-            <a href="/subs">
-              <i class="now-ui-icons location_map-big"></i>
-              <p>Subscription</p>
-            </a>
-          </li>
-          <li class="{{ 'notifications' == request()->path() ? 'active' : '' }}">
-            <a href="/notifications">
+          <li class="{{ (request()->is('admin.notifications')) ? 'active' : '' }}">
+            <a href="/admin.notifications">
               <i class="now-ui-icons ui-1_bell-53"></i>
               <p>Notifications</p>
             </a>
           </li>
-          <li class="{{ 'users' == request()->path() ? 'active' : '' }}">
-            <a href="/users">
+          <li class="{{ (request()->is('admin.users')) ? 'active' : '' }}">
+            <a href="/admin.users">
               <i class="now-ui-icons users_single-02"></i>
               <p>User Profiles</p>
             </a>
           </li>
-          <li class="{{ 'tables' == request()->path() ? 'active' : '' }}">
-            <a href="/tables">
+          <li class="{{ (request()->is('admin.packages')) ? 'active' : '' }}">
+            <a href="/admin.packages">
               <i class="now-ui-icons design_bullet-list-67"></i>
-              <p>Table List</p>
+              <p>Packages</p>
+            </a>
+          </>
+          <li class="{{ (request()->is('admin.subs')) ? 'active' : '' }}">
+            <a href="/admin.subs">
+              <i class="now-ui-icons shopping_tag-content"></i>
+              <p>Subscription</p>
+            </a>
+          </li> 
+          <li class="{{ (request()->is('admin.offers')) ? 'active' : '' }}">
+            <a href="/admin.offers">
+              <i class="now-ui-icons objects_diamond"></i>
+              <p>Offers</p>
             </a>
           </li>
+
           <li class="active-pro">
             <a href="./upgrade.html">
               <i class="now-ui-icons arrows-1_cloud-download-93"></i>
@@ -180,17 +181,17 @@
           <nav>
             <ul>
               <li>
-                <a href="https://www.creative-tim.com">
-                  Creative Tim
+                <a href="#">
+                  CENTURY 100 LINK
                 </a>
               </li>
               <li>
-                <a href="http://presentation.creative-tim.com">
+                <a href="#">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="http://blog.creative-tim.com">
+                <a href="#">
                   Blog
                 </a>
               </li>
@@ -199,7 +200,7 @@
           <div class="copyright" id="copyright">
             &copy; <script>
               document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+            </script>, Developed by <a href="https://www.sourcecodehq.com" target="_blank">SourceCodeHQ</a>.
           </div>
         </div>
       </footer>
@@ -219,6 +220,7 @@
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
   <script src="../assets/js/now-ui-dashboard.min.js?v=1.5.0" type="text/javascript"></script><!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
+
 
 
   @yield('scripts')

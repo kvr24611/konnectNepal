@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Users
+    Subscription
 @endsection
 
 @section('content')
@@ -9,7 +9,7 @@
   <div class="col-md-12">
     <div class="card">
       <div class="card-header">
-        <h4 class="card-title"> Register Staff</h4>
+        <h4 class="card-title"> Manage Subscriptions</h4>
       </div>
       <div class="card-body" style="padding:40px;">
         <form action="#" method="post"> 
