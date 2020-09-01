@@ -14,7 +14,33 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/single', function () {
+    return view('single');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+Route::get('/portfolio-single', function () {
+    return view('portfolio-single');
+});
+
+Route::get('/services', function () {
+    return view('services');
 });
 
 Auth::routes();
@@ -29,22 +55,3 @@ Route::get('/admin.subs', 'AdminController@subs');
 Route::get('/admin.offers', 'AdminController@offers');
 
 
-// Route::get('/users', function () {
-//     return view('admin.users');
-// });
-
-// Route::get('/subs', function () {
-//     return view('admin.subs');
-// });
-
-// Route::get('/packages', function () {
-//     return view('admin.packages');
-// });
-
-// Route::get('/notifications', function () {
-//     return view('admin.notifications');
-// });
-
-// Route::get('/offers', function () {
-//     return view('admin.offers');
-// });
