@@ -4,276 +4,208 @@
 @section('content')
 
 
-    
-    <div class="site-section-cover">
-      <div class="container">
-        <div class="row align-items-center text-center justify-content-center">
-          <div class="col-lg-7">
-            <h1 class="mb-4">Do What You Love</h1>
-            <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem nulla quos suscipit laborum fugit aspernatur rem pariatur illo.</p>
-            <p><a href="https://www.youtube.com/watch?v=F6a09khYxRo" data-fancybox class="btn-video_38929"><span class="icon-play"></span></a></p>
+    <!-- Image Carousel -->
+
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+      <!-- Carousel Content -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="../landingAssets/img/carousel/1.jpg" alt="" class="w-100">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
+                  <h1>Bootstrap</h1>
+                  <div class="border-top border-primary w-50 mx-auto my-3"></div>
+                  <h3 class="pb-3">Complete Website Design</h3>
+                  <a href="#" class="btn btn-danger btn-lg mr-2">View Demo</a>
+                  <a href="#" class="btn btn-primary btn-lg ml-2">Start Now</a>
+                </div>  
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../landingAssets/img/carousel/2.jpg" alt="" class="w-100">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-end text-right">
+                <div class="col-5 bg-custom d-none d-lg-block py-3 px-0 pr-3">
+                  <p class="lead pb-3">A mobile friendly HTML CSS WEBSITE DESIGN</p>
+                  <a href="#" class="btn btn-danger btn-lg">See Phone</a>
+
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../landingAssets/img/carousel/3.jpg" alt="" class="w-100">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-start text-left">
+                <div class="col-7 bg-custom d-none d-lg-block py-3 px-0  pl-3">
+                  <h3 class="pb-3">Built for tablets</h3>
+                  <p class="lead">The best website can be seen just as well on all devices.</p>
+                  <a href="#" class="btn btn-primary btn-lg">See Tablet</a>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <!-- End Carousel Content -->
+
+
+      <!-- Previous & Next Buttons -->
+      <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="fas fa-chevron-left fa-2x"></span>
+      </a>
+      <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="fas fa-chevron-right fa-2x"></span>
+      </a>
+      <!-- End Previous & Next Buttons -->
+
+    </div>
+    <!-- End Image Carousel -->
+
+
+    <!-- Main Page Heading -->
+
+    <div class="col-12 text-center mt-5">
+      <h1 class="text-dark pt-4">Built with Ease</h1>
+      <div class="border-top border-primary w-25 mx-auto my-3"></div>
+      <p class="lead">For all of the champions.</p>
+    </div>
+
+
+    <!-- Three Column Section -->
+    <div class="container">
+      <div class="row my-5">
+
+        <div class="col-md-4 my-4">
+          <img src="../landingAssets/img/1.jpg" class="w-100">
+          <h4 class="my-4">"Amazing. Incredible"</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+        </div>
+
+        <div class="col-md-4 my-4">
+          <img src="../landingAssets/img/2.jpg" class="w-100">
+          <h4 class="my-4">"Amazing. Incredible"</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+        </div>
+
+        <div class="col-md-4 my-4">
+          <img src="../landingAssets/img/3.jpg" class="w-100">
+          <h4 class="my-4">"Amazing. Incredible"</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">Our Story</a>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <!-- End Three Column Section -->
+
+
+    <!-- Emoji Navbar First -->
+    <a href ="#emoji" role="button" data-toggle="collapse" class="navbar bg-primary sticky-top emoji"></a>
+
+
+    <!-- Start Fixed Background IMG -->
+    <div class="fixed-background">
+
+      <div class="row text-light py-5">
+        <div class="col-12 text-center">
+          <h1>Advance to the Next Level</h1>
+          <h3 class="py-4">..See what's on the other side</h3>
+          <button type="button" data-toggle="modal" data-target="#modal1" class="btn btn-danger btn-lg mr-2">View Demo</button>
+          <button type="button" data-toggle="modal" data-target="#modal1" class="btn btn-primary btn-lg ml-2">Start Now</button>
+        </div>
+      </div>
+
+      <div class="fixed-wrap">
+        <div class="fixed">
+          
         </div>
       </div>
     </div>
 
+    <!-- End Fixed Background IMG -->
+   
+    
+    <!-- Emoji Navbar Second -->
+    <a href ="#emoji" role="button" data-toggle="collapse" class="navbar bg-primary sticky-top emoji">
+      <i class="fas fa-plug"></i>
+    </a>
 
-
-    <div class="site-section">
+    <div class="collapse" id="emoji">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="service-29191">
-              <span class="wrap-icon mb-4 d-block">
-                <span class="icon-work"></span>
-              </span>
-              <h3 class="mb-3">Interface Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatem reiciendis minus, a dolores.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-29191">
-              <span class="wrap-icon mb-4 d-block">
-                <span class="icon-weekend"></span>
-              </span>
-              <h3 class="mb-3">Product Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatem reiciendis minus, a dolores.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-29191">
-              <span class="wrap-icon mb-4 d-block">
-                <span class="icon-wb_incandescent"></span>
-              </span>
-              <h3 class="mb-3">Quality Results</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatem reiciendis minus, a dolores.</p>
-            </div>
-          </div>
+          <div class="col-sm-6 col-md-3"><img src="img/emoji/panda.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="img/emoji/poo.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="img/emoji/unicorn.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="img/emoji/chicken.gif" class="w-100"></div>
         </div>
       </div>
     </div>
 
 
-    <div class="container portfolio-wrap site-section">
+    <!-- Modal Popup -->
+    <div class="modal fade" id="modal1">
+      <div class="modal-dialog">
+        <img src="../landingAssets/img/emoji/poo.gif" class="w-100">
+      </div>
+    </div>
 
-      <h2 class="mb-5">Portfolio</h2>
-      <div class="row mb-4">
-
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_1.jpg" alt="Image" class="img-fluid"></a>
+      
+    <!-- Start Two Column Section -->
+    <div class="container my-5">
+      <div class="row py-4">
+        
+        <div class="col-lg-4 mb-4 my-lg-auto">
+          <h1 class="text-dark font-weight-bold mb-3">We've been expecting you!!</h1>
+          <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <a href="#" target="_blank" class="btn btn-outline-dark btn-lg">To the Website</a>
         </div>
 
-
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_2.jpg" alt="Image" class="img-fluid"></a>
-        </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_3.jpg" alt="Image" class="img-fluid"></a>
-        </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_4.jpg" alt="Image" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_5.jpg" alt="Image" class="img-fluid"></a>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/work_1.jpg" alt="Image" class="img-fluid"></a>
+        <div class="col-lg-8">
+          <img src="../landingAssets/img/code.jpg" class="w-100">
         </div>
 
       </div>
     </div>
 
-    <div class="site-section pt-0">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-7 mx-auto text-center">
-            <h2>Testimonials</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="client">
-              <div class="d-flex name-photo align-items-center mb-4">
-                <div class="name">
-                  <h3>Chad Hawkins</h3>
-                  <span>Customer</span>
-                </div>
-                <div class="img ml-auto">
-                  <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="client-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur rerum, iusto accusamus, numquam et vero aliquam delectus accusantium quo!</div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="client">
-              <div class="d-flex name-photo align-items-center mb-4">
-                <div class="name">
-                  <h3>Ayisha Atherton</h3>
-                  <span>Customer</span>
-                </div>
-                <div class="img ml-auto">
-                  <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="client-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur rerum, iusto accusamus, numquam et vero aliquam delectus accusantium quo!</div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="client">
-              <div class="d-flex name-photo align-items-center mb-4">
-                <div class="name">
-                  <h3>Riccardo Gilliam</h3>
-                  <span>Customer</span>
-                </div>
-                <div class="img ml-auto">
-                  <img src="images/person_3.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="client-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur rerum, iusto accusamus, numquam et vero aliquam delectus accusantium quo!</div>
-            </div>
-          </div>
-
-          <div class="col-lg-3">
-            <div class="client">
-              <div class="d-flex name-photo align-items-center mb-4">
-                <div class="name">
-                  <h3>Jasleen Dunkley</h3>
-                  <span>Customer</span>
-                </div>
-                <div class="img ml-auto">
-                  <img src="images/person_4.jpg" alt="Image" class="img-fluid">
-                </div>
-              </div>
-              <div class="client-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur rerum, iusto accusamus, numquam et vero aliquam delectus accusantium quo!</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section blog-section">
-      <div class="container mb-5">
-        <div class="row">
-          <div class="col-md-7">
-            <h2 class="font-weight-bold">Blog Updates</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ducimus facere quam eos tempore beatae non eius, provident.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-
-        <div class="owl-carousel nonloop-block-13">
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_1.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
+    <!-- End Two Column Section -->
 
 
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_2.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
+    <!-- Start Jumbotron -->
 
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_3.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_4.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_5.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/work_1.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
-            <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
-              <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="site-section bg-light">
+    <div class="jumbotron py-5 mb-0">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <img src="images/client_google.png" alt="Image" class="img-fluid">
+
+          <div class="col-md-7 col-lg-8 col-xl-9 my-auto">
+            <h4>Looking for quality web development and design services??</h4>
           </div>
-          <div class="col-md-3">
-            <img src="images/client_invision.png" alt="Image" class="img-fluid">
+
+          <div class="col-md-5 col-lg-4 col-xl-3 pt-4 pt-md-0">
+            <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
           </div>
-          <div class="col-md-3">
-            <img src="images/client_nike.png" alt="Image" class="img-fluid">
-          </div>
-          <div class="col-md-3">
-            <img src="images/client_microsoft.png" alt="Image" class="img-fluid">
-          </div>
+          
         </div>
       </div>
-    </div>
-    
-    
-    
+    </div>  
+
+    <!-- End Jumbotron -->
+
+
 
 @endsection
 

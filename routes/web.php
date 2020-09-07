@@ -12,10 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/welcome', function () {
+    return view('welcome');
+});
 
 Route::get('/', function () {
     return view('landing');
 });
+
 
 Route::get('/about', function () {
     return view('about');
@@ -53,5 +57,7 @@ Route::get('/admin.users', 'AdminController@users');
 Route::get('/admin.packages', 'AdminController@packages');
 Route::get('/admin.subs', 'AdminController@subs');
 Route::get('/admin.offers', 'AdminController@offers');
+
+
 
 
