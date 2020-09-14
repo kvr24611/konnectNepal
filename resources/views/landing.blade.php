@@ -17,11 +17,11 @@
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-8 bg-custom d-none d-md-block py-3 px-0">
-                  <h1>Bootstrap</h1>
+                  <h3>Blazing Fast</h1>
                   <div class="border-top border-primary w-50 mx-auto my-3"></div>
-                  <h3 class="pb-3">Complete Website Design</h3>
-                  <a href="#" class="btn btn-danger btn-lg mr-2">View Demo</a>
-                  <a href="#" class="btn btn-primary btn-lg ml-2">Start Now</a>
+                  <p class="pb-3">Get the super speed internet service</p>
+                  <a href="#" class="btn btn-danger btn-lg mr-2">Order Now</a>
+                  <a href="#" class="btn btn-primary btn-lg ml-2">Get Quota</a>
                 </div>  
               </div>
             </div>
@@ -33,8 +33,8 @@
             <div class="container">
               <div class="row justify-content-end text-right">
                 <div class="col-5 bg-custom d-none d-lg-block py-3 px-0 pr-3">
-                  <p class="lead pb-3">A mobile friendly HTML CSS WEBSITE DESIGN</p>
-                  <a href="#" class="btn btn-danger btn-lg">See Phone</a>
+                  <p class="lead pb-3">Our Fiber Optics service is the uncompromising service</p>
+                  <a href="#" class="btn btn-danger btn-lg">View Offers</a>
 
                 </div>  
               </div>
@@ -47,9 +47,9 @@
             <div class="container">
               <div class="row justify-content-start text-left">
                 <div class="col-7 bg-custom d-none d-lg-block py-3 px-0  pl-3">
-                  <h3 class="pb-3">Built for tablets</h3>
-                  <p class="lead">The best website can be seen just as well on all devices.</p>
-                  <a href="#" class="btn btn-primary btn-lg">See Tablet</a>
+                  <h3 class="pb-3">Wireless Fidelity</h3>
+                  <p class="lead">Enjoy the wifi on all devices.</p>
+                  <a href="#" class="btn btn-primary btn-lg">Speed Test</a>
                 </div>  
               </div>
             </div>
@@ -148,10 +148,10 @@
     <div class="collapse" id="emoji">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-3"><img src="img/emoji/panda.gif" class="w-100"></div>
-          <div class="col-sm-6 col-md-3"><img src="img/emoji/poo.gif" class="w-100"></div>
-          <div class="col-sm-6 col-md-3"><img src="img/emoji/unicorn.gif" class="w-100"></div>
-          <div class="col-sm-6 col-md-3"><img src="img/emoji/chicken.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="../landingAssets/img/emoji/panda.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="../landingAssets/img/emoji/poo.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="../landingAssets/img/emoji/unicorn.gif" class="w-100"></div>
+          <div class="col-sm-6 col-md-3"><img src="../landingAssets/img/emoji/chicken.gif" class="w-100"></div>
         </div>
       </div>
     </div>

@@ -16,36 +16,6 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('landing');
-});
-
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/blog', function () {
-    return view('blog');
-});
-Route::get('/single', function () {
-    return view('single');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-Route::get('/portfolio-single', function () {
-    return view('portfolio-single');
-});
-
-Route::get('/services', function () {
-    return view('services');
-});
 
 Auth::routes();
 
@@ -57,6 +27,16 @@ Route::get('/admin.users', 'AdminController@users');
 Route::get('/admin.packages', 'AdminController@packages');
 Route::get('/admin.subs', 'AdminController@subs');
 Route::get('/admin.offers', 'AdminController@offers');
+
+Route::get('/', 'LandingController@home');
+Route::get('/about', 'LandingController@about');
+Route::get('/contact', 'LandingController@contact');
+Route::get('/offers', 'LandingController@offers');
+Route::get('/services', 'LandingController@services');
+
+
+Route::post('/offer','OffersController@store');
+
 
 
 

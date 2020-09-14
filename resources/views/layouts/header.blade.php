@@ -38,11 +38,11 @@
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="services" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="portfolio" class="nav-link">Portfolio</a></li>
-          <li class="nav-item"><a href="contact" class="nav-link">Contact Us</a></li>
+          <li class="nav-item"><a href="/" class="nav-link {{ (request()->is('/')) ? 'active' : '' }}">Home</a></li>
+          <li class="nav-item"><a href="about" class="nav-link {{ (request()->is('about')) ? 'active' : '' }}">About</a></li>
+          <li class="nav-item"><a href="services" class="nav-link {{ (request()->is('services')) ? 'active' : '' }}">Services</a></li>
+          <li class="nav-item"><a href="offers" class="nav-link {{ (request()->is('offers')) ? 'active' : '' }}">Offers</a></li>
+          <li class="nav-item"><a href="contact" class="nav-link {{ (request()->is('contact')) ? 'active' : '' }}">Contact Us</a></li>
           <li class="nav-item"><a href="login" class="nav-link">Login</a></li>
         </ul>
       </div>
